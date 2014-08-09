@@ -9,18 +9,18 @@ module.exports=function(app){
   });
 
   //home page/template for home,about,login....
-  router.get('/subscr',function(req,res){
+  router.get('/',function(req,res){
     //implements for home page
     res.sendfile(common.root+'/public/home/template/common.html');
   });
 
-  router.get('/subscr/index',function(req,res){
+  router.get('/index',function(req,res){
     //implements for home page
     res.sendfile(common.root+'/public/home/index.html');
   });
 
   //login page
-  router.get('/subscr/login',function(req,res){
+  router.get('/login',function(req,res){
     //implements for login page
     res.sendfile(common.root+'/public/login.html');
   });
