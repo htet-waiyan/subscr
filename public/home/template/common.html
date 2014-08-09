@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html ng-app="Subscr">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+    <link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="/public/stylesheet/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <header class="row">
+        <div class="col-xs-2">
+          <h2 id="logo"><a href="#">#Subscr</a></h2>
+        </div>
+        <div class="col-xs-2 col-md-1"><a href="#" class="btn btn-clear">Login</a></div>
+        <div class="col-xs-2 col-md-1"><a href="#" class="btn btn-clear">Signup</a></div>
+
+        <div class="col-xs-2 pull-right"><a href="" class="btn btn-clear">Submit</a></div>
+      </header>
+
+      <div class="container-fluid" ng-view>
+        <!-- Where Content Dynamically Replace at runtime -->
+      </div>
+
+      <footer class="row">
+        <div class="col-xs-1">&copy; subscr</div>
+        <div class="col-xs-1"><a href="#">Bookmarklet</a></div>
+        <div class="col-xs-1"><a href="#">Acknowledge</a></div>
+        <div class="col-xs-1"><a href="#">F&Q</a></div>
+        <div class="col-xs-1"><a href="#">Guide</a></div>
+      </footer>
+    </div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.21/angular-route.js"></script>
+    <script type="text/javascript" src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/bower_components/bootstrap/js/collapse.js"></script>
+    <script type="text/javascript" src="/public/js/app.js"></script>
+    <script type="text/javascript" src="/public/js/config.js"></script>
+    <script type="text/javascript" src="/public/js/HomeController.js"></script>
+  </body>
+</html>

@@ -1,0 +1,101 @@
+div.container{
+	margin-top: 30px;
+}
+h2#logo{
+	font-size: 35px;
+	text-decoration: underline;
+	color:orange;
+	font-family: 'Yanone Kaffeesatz';
+	text-align: center;
+	margin-top: 0px !important;
+	padding:0px;
+}
+.btn-clear{
+	background-color:#fff;
+	border:1px solid #5DB0FF;
+	color:#5DB0FF;
+
+	transition:background-color 1s ease;
+	transition:color 1.5s ease;
+}
+.btn-clear:hover{
+	background-color: #5DB0FF;
+	color:#fff;
+}
+.feature-text p{
+	color:#666;
+	font-family: 'Lora';
+	font-size: 20px;
+}
+.left .row{
+	padding:10px 0px 10px 0px;
+	text-align: center;
+}
+.search{
+	padding:0 0 !important;
+	padding-bottom: 0 !important;
+}
+.search input[type='text']{
+	width:inherit;
+	padding:8px;
+	margin: 0 0;
+
+	border-radius: 3px;
+	border:1px solid #666;
+}
+input[type='text']#subscr{
+	outline: 0px !important;
+	-webkit-appearance:none;
+}
+.text-hover{
+	box-shadow: 0px 0px 2px 0px black;
+}
+span.hashtag{
+	width:auto;
+	height:auto;
+	padding: 5px;
+	color:#fff;
+
+	border-radius: 5px;
+	background-color: #f63e62;
+}
+.sub-tags,.tags,.popular-tags *{
+	text-align: left;
+}
+.link{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #fff;
+	background-color:#f2f2f2;
+
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.link a:link#source{
+	font-size: 14px;
+	color:#9eadb6;
+}
+.link a:link.title{
+	font-size: 18px;
+	color:#75828a;
+}
+.title{
+	margin-bottom: 3px;
+}
+div.icons{
+	margin-top: 5px;
+}
+
+div.tags a:hover{
+	text-decoration: none;
+}
+
+div.icons span,div.icons small{
+	color:#666 !important;
+}
+
+footer *{
+	display: inline-block;
+	text-align: center;
+	font-size: 12px;
+}

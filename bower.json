@@ -1,0 +1,15 @@
+{
+  "name": "subscr",
+  "version": "0.0.1",
+  "description": "Hacker News Like App Subscription based news app",
+  "authors": [
+    "waiyan"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.2.21",
+    "jquery": "~2.1.1",
+    "bootstrap": "~3.2.0"
+  }
+}
